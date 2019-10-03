@@ -1,0 +1,25 @@
+
+/*
+#gino:focus {
+    #6A12E8
+    color: #495057;
+    background-image:linear-gradient(to top, #3F51B5 2px, rgba(63, 81, 181, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.26) 1px, transparent 1px);
+    
+}*/
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus{
+
+    
+    background-image:linear-gradient(to top, #3F51B5 2px, rgba(63, 81, 181, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.26) 1px, transparent 1px);
+}
+
+#signupSubmit, #loginSubmit{
+
+    background-color: #3F51B5 
+    }   
+      
+    #signupSubmit:hover,#loginSubmit:hover {
+        background-color: #000140;
+        box-shadow: none
+       
+      }
